@@ -1,0 +1,96 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      
+}
+
+.weather-container {
+      background-color: #333c4b;
+       padding: 16px;
+       border-radius: 8px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       text-align: center;
+      
+}
+
+.input-container {
+  margin-bottom: 20px;
+ 
+}
+#cityInput{
+  height: 25px;
+  border-radius: 20px 0px 30px 0px;
+  align-items: center;
+  padding: 10px;
+  font-size: large;
+
+}
+p{
+  color:red;
+}
+
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+  
+
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  height:35px ;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#weatherCoun,#weatherCoor,#weatherHumi,#weatherPres,#weatherTemp,#weatherDesc{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 10px 10px 10px;
+  background-color:#eff0f5 ;
+  color: #403a31;
+  border-radius: 5px;
+  height: 60px;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  justify-items: center;
+
+}
+#weatherCoun,#weatherCoor,#weatherHumi,#weatherPres,#weatherTemp,#weatherDesc{
+  height: 20px;
+  border-radius: 5Px;
+
+}
+.contain-output{
+  background-color: #ffffff;
+  padding: 3px;
+  border-radius: 4px;
+}
+footer{
+  background-color: #11141a;
+  border-top: 1px;
+}
+.copyRight{
+  display: inline-block;
+  color: rgb(109, 109, 109);
+  padding: 0.75px;
+  font-weight: 400;
+  
+}
+
+
+  

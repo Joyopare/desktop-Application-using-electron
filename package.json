@@ -1,0 +1,41 @@
+{
+  "name": "newapp",
+  "productName": "first test",
+  "version": "1.0.0",
+  "description": "mynewapp",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+
+  },
+  "author": "joy",
+  "license": "MIT",
+  "dependencies": {
+   
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  },
+  "devDependencies": {
+    "electron": "^28.2.1",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.example.newApp",
+    "productName": "first test",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+  
+
+}

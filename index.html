@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLOUD99</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-container">
+    <h1>CLOUD99🌨️</h1>
+    <p id="weatherError"></p>
+    <div class="input-container">
+      <input type="text" id="cityInput" placeholder="Enter City E.g.Kumasi" />
+      <button onclick="getWeather()">Get Weather</button>
+    </div>
+    <div class="contain-output">
+        <div id="weatherDesc"></div>
+        <div id="weatherTemp"></div>
+        <div id="weatherPres"></div>
+        <div id="weatherHumi"></div>
+        <div id="weatherCoor"></div>
+        <div id="weatherCoun"></div>
+    </div>
+    <footer>
+       <p  class="copyRight">(C)2023 All Rights Reserved.</p> 
+       <p  class="copyRight">| Design by JOY</p> 
+  </footer>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
